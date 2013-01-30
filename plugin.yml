@@ -1,0 +1,16 @@
+name: b3Block
+main: b3Suite.block.Block
+version: 1
+commands:
+  block:
+    description: Place a block at your feet
+    usage: /block <id> [x,y,z] [world]
+    permissions: command.block.*
+    aliases: [b]
+permissions:
+  command.block.*:
+    description: Allows players to use /block *
+    default: op
+  command.block.id:
+    description: Allows players to use /block id
+    default: op

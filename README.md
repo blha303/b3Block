@@ -14,5 +14,5 @@ Permissions
 
 Why do you need this plugin?
 ----------------------------
-* For [[http://dev.bukkit.org/server-mods/worldedit|WorldEdit]] copying. Instead of placing blocks to reach the outer corner of an area, fly there and use **/b 1**
+* For [WorldEdit](http://dev.bukkit.org/server-mods/worldedit) copying. Instead of placing blocks to reach the outer corner of an area, fly there and use **/b 1**
 * For automatic block placing/removing. Just set up command blocks with **/b id x,y,z** to place a block at those coordinates. To remove a block, just set the ID to 0.

@@ -1,0 +1,18 @@
+This plugin allows players to create a block at their location, even if they're flying.
+
+=== Commands ===
+* **/block id** - Places the block represented by the number 'id' where the player's feet are. For example, **/block 1** to place a stone block.
+
+=== Permissions===
+* **command.block.*** - Allows a player to use any block ID
+* **command.block.{id}** - Allows a player to use only the specified ID
+
+=== Why do you need this plugin? ===
+* For [[http://dev.bukkit.org/server-mods/worldedit|WorldEdit]] copying. Instead of placing blocks to reach the outer corner of an area, fly there and use **/block 1**
+* For automatic block placing/removing. Just set up command blocks with **/b id x,y,z** to place a block at those coordinates. To remove a block, just set the ID to 0.
+
+=== Video ===
+<<youtube -mwbAwOWn1c>>
+
+=== Source ===
+* [[https://github.com/blha303/b3Block|Github]]
